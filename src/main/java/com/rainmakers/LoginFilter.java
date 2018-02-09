@@ -25,7 +25,7 @@ public class LoginFilter implements Filter {
         /*拦截其他接口，进行token的校验*/
         System.out.println("********************开始校验token******************");
         /*从请求头中获取token*/
-        String token = request.getHeader("token");
+        String token = request.getHeader("Authorization").substring(6);
         System.out.println(token);
         // Map<String,Object> resultMap = JWT.
     }

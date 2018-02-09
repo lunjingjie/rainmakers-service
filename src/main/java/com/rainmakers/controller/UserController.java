@@ -1,10 +1,8 @@
+/*
 package com.rainmakers.controller;
 
 import com.rainmakers.service.UserService;
 import com.rainmakers.utils.JWT;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -15,9 +13,11 @@ import com.rainmakers.utils.ResponseData;
 import java.util.HashMap;
 import java.util.Map;
 
+*/
 /**
  * @author Administrator
- */
+ *//*
+
 @Controller
 @RequestMapping("/user")
 public class UserController {
@@ -50,4 +50,4 @@ public class UserController {
         map.put("user", user);
         return map;
     }
-}
+}*/

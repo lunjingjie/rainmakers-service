@@ -1,3 +1,4 @@
+/*
 package com.rainmakers.controller;
 
 import com.rainmakers.model.User;
@@ -21,6 +22,7 @@ public class MeController {
 		if (user != null) {
 			return ResponseData.ok().putDataValue("user", user);
 		}
-		return ResponseData.customerError().putDataValue(ResponseData.ERRORS_KEY, new String[] { "token²»ºÏ·¨" });
+		return ResponseData.customerError().putDataValue(ResponseData.ERRORS_KEY, new String[] { "tokené”™è¯¯" });
 	}
 }
+*/
